@@ -1,5 +1,5 @@
 <div>
-  <img src="https://user-images.githubusercontent.com/122552232/212383603-95226d56-ecde-4276-b962-bf5dd2b48ea1.jpg">
+  <img src="https://github.com/javadevbh/Registration-Form/assets/122552232/6a685cb4-da24-415a-8ccc-d046227dfd5a">
 </div>
 
 ---
