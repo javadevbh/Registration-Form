@@ -52,7 +52,7 @@ const Login = () => {
 
   return (
     <>
-      <form className={styles.form} onSubmit={submitHandler}>
+      <form className={styles.loginForm} onSubmit={submitHandler}>
         <h2 className={styles.formTitle}>Login</h2>
         <div className={styles.inputContainer}>
           <label htmlFor="email">Email</label>
