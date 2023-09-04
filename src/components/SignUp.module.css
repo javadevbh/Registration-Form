@@ -1,0 +1,106 @@
+.form{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 380px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 15px;
+}
+
+.formTitle{
+    color: #1a73e8;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.inputContainer input{
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputContainer label{
+    margin-bottom: 2px;
+}
+
+.inputContainer span{
+    color: rgb(216, 9, 9);
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgba(255, 0, 0,0.2);
+    width: fit-content;
+    padding: 0 2px;
+    border-radius: 5px;
+}
+
+.inputContainer:nth-child(6){
+    color: #1a73e8;
+}
+
+.checkboxContainer{
+    display: flex;
+}
+
+.checkboxContainer input{
+    margin-left: 5px;
+}
+
+.checkboxContainer input:checked{
+    border-radius: 50%;
+}
+
+.correct{
+    border: 1px solid lightgray !important;
+}
+
+.inCorrect{
+    border: 2px solid red !important;
+}
+
+.correct:focus , .inCorrect:focus{
+    border: 1px solid lightgray !important;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.buttonsContainer button{
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.buttonsContainer button:hover{
+    background-color: #1b64c2;
+}
+
+.buttonsContainer a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1a73e8;
+}
+
+@media (max-width : 576px){
+    .form{
+        width: fit-content;
+    }
+}
